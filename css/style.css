@@ -14,9 +14,13 @@
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    margin-left: 30%;
-   
-    
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 ::placeholder {
@@ -26,11 +30,11 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px,1fr));
-    grid-template-rows: 140px 140px 140px;
+    grid-template-rows: repeat(3,1fr);
     grid-row-gap: 80px;
     grid-column-gap: 40px;
     margin-bottom: 200px;
-    
+    grid-template-areas: center;
 }
 
 /* img {
