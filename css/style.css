@@ -1,0 +1,39 @@
+ 
+ body {
+     width: 70%;
+     margin:auto;
+     
+ }
+ 
+ 
+ #search {
+    background-image: url(../img/photos/search-icon.jpg) ;
+    background-position: .3%;
+    background-repeat: no-repeat;
+    padding: 10px 10%;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 30%;
+   
+    
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px,1fr));
+    grid-template-rows: 140px 140px 140px;
+    grid-row-gap: 80px;
+    grid-column-gap: 40px;
+    margin-bottom: 200px;
+    
+}
+
+/* img {
+    width:  80%;
+    height: 100%;
+} */
