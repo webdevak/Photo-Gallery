@@ -17,4 +17,6 @@
 //     }
 // });
 
-// search.addEventListener('keyup', handleSearch);
+// search.addEventListener('keyup', 'data-caption');
+
+// onkeyup="myFunction()"
