@@ -1,22 +1,23 @@
-// const baguetteBox = require('baguettebox.js');
+const search = document.querySelector('#search');
+const caption = document.querySelectorAll('.gallery a');
 
-// const search = document.querySelector('#search');
-// const caption = document.querySelectorAll('.gallery a');
-// const handleSearch = event => {
-//     const searchTerm = event.target.value.toLowerCase();
-// }
+const handleSearch = event => {
 
-// caption.forEach(caption => {
-//     const text = caption.textContent.toLowerCase();
-//     const box = caption.parentElement;
+    const searchTerm = event.target.value.toLowerCase();
 
-//     if( text.indexOf(searchTerm) > -1) {
-//         box.style.display = "block";
-//     } else {
-//         box.style.display = "none";
-//     }
-// });
 
-// search.addEventListener('keyup', 'data-caption');
+caption.forEach(caption => {
+    const text = caption.textContent.toLowerCase();
+    const box = caption.parentElement;
 
-// onkeyup="myFunction()"
+    if( text.indexOf(searchTerm) > -1) {
+        box.style.display = "data-caption";
+    } else {
+        box.style.display = "none";
+    }
+});
+
+};
+
+search.addEventListener('keyup', 'handleSearch');
+
