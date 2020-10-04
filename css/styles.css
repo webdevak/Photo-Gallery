@@ -4,9 +4,19 @@
  
 
  body {
-     width: 80%;
+     /* width: 80%; */
      margin:auto;
      min-height: 100%;
+     font-family: 'Sansita Swashed', cursive;
+ }
+
+ .title {
+     background-color: whitesmoke;
+     padding: 20px 15px;
+     text-align: center;
+     width: 100%;
+     margin: 0 auto;
+     font-weight: 100;
  }
  
  
@@ -18,7 +28,7 @@
     margin: 20px;
     border: 3px solid #ddd;
     border-radius: 10px;
-    width: 60%;
+    width: 47%;
     font-size: 1rem;
 }
 
@@ -43,10 +53,24 @@
     justify-content: center;
 }
 
+.gallery img {
+    border-radius: 5px;
+}
+
+
+ .gallery img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.75rem rgb(158, 140, 140));
+
+} 
+
 footer  {
     display: grid;
+    width: 100%;
     text-align: center;
     color:rgb(143, 131, 131);
+    background-color: whitesmoke;
+    padding: 15px;
     margin-top: 10%;
 }
 
