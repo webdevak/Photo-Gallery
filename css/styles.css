@@ -4,14 +4,15 @@
  
 
  body {
-     /* width: 80%; */
+     background-color:  rgb(143, 131, 131);;
      margin:auto;
      min-height: 100%;
      font-family: 'Sansita Swashed', cursive;
  }
 
  .title {
-     background-color: whitesmoke;
+     background-color: rgb(59, 59, 122);
+     color: rgb(143, 131, 131);
      padding: 20px 15px;
      text-align: center;
      width: 100%;
@@ -60,7 +61,7 @@
 
  .gallery img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 0.75rem rgb(158, 140, 140));
+    filter: drop-shadow(0 0 0.75rem rgb(17, 16, 16));
 
 } 
 
@@ -69,7 +70,7 @@ footer  {
     width: 100%;
     text-align: center;
     color:rgb(143, 131, 131);
-    background-color: whitesmoke;
+    background-color: rgb(59, 59, 122);
     padding: 15px;
     margin-top: 10%;
 }
