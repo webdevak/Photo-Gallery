@@ -36,6 +36,7 @@
 .search {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 ::placeholder {
@@ -50,7 +51,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 70px 50px;
+    padding-top: 50px;
     justify-content: center;
 }
 
